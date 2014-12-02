@@ -15,7 +15,7 @@ apt-key adv --keyserver keys.gnupg.net --recv-keys EAD883AF
 apt-get update -y
 
 if [[ -t 0 ]]; then
-	apt-get install -y dokku-alt ruby ruby-sinatra
+	apt-get install -y dokku-alt-beta ruby ruby-sinatra
 else
 	unset UCF_FORCE_CONFFOLD
 	export UCF_FORCE_CONFFNEW=YES
